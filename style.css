@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #051937;
+    display: flex;
+    justify-content: center;
+}
+.container{
+    background-color:#A8EB12;
+    width: 360px;
+    height: 180px;
+    text-align: center;
+    margin-top: 130px;
+    border-radius: 10px;
+}
+.heading{
+    margin-top: 25px;
+}
+#Password{
+    background-color: azure;
+    width: 270px;
+    height: 40px;
+    margin-left: 45px;
+    border-radius: 5px;
+    margin-top: 10px;
+    font-size: 1.5rem;
+    color: #051937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+button{
+    margin-top: 10px;
+    padding: 7px;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+    font-family:Verdana, Tahoma, sans-serif;
+    font-size: 12px;
+}
